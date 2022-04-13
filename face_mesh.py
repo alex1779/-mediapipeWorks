@@ -2,7 +2,7 @@
 """
 Created on Wed Apr 13 11:51:12 2022
 
-@author: Ale
+@author: Alejandro Maggioni
 """
 
 import cv2
