@@ -1,2 +1,2 @@
-# -Mediapipe Works
+# Mediapipe Works
 Mediapipe examples
