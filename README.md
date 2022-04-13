@@ -10,4 +10,6 @@ pip install -r requirements.txt
 ```
 
 ## For running
+```
 python face_mesh.py
+```
