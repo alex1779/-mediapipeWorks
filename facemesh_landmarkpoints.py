@@ -54,7 +54,7 @@ def main():
                 
         
         image = imutils.resize(image, height=720)
-        cv2.imshow('MediaPipe Face Mesh', image)
+        cv2.imshow('MediaPipe Landmark Points', image)
         if cv2.waitKey(5) & 0xFF == 27:
             cv2.destroyAllWindows()
             cap.release()
