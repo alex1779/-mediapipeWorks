@@ -7,7 +7,7 @@ Created on Wed Apr 13 11:51:12 2022
 
 import cv2
 import mediapipe as mp
-
+import imutils
 
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
@@ -65,11 +65,13 @@ def main():
                     connection_drawing_spec=mp_drawing_styles
                     .get_default_face_mesh_iris_connections_style())
                 
-        
+        image = imutils.resize(image, height=720)
         cv2.imshow('MediaPipe Face Mesh', image)
         if cv2.waitKey(5) & 0xFF == 27:
             cv2.destroyAllWindows()
+            cap.release()
             break
+    cv2.destroyAllWindows()
     cap.release()
 
 
