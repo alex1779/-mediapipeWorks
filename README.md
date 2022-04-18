@@ -18,7 +18,7 @@ python facemesh_landmarkpoints.py
 ```
  *** looks like below
 
-![Face Mesh](https://github.com/alex1779/mediapipeWorks/blob/master/images_samples/facemesh_landmarkpoints.jpg)
+![Face Mesh](https://github.com/alex1779/mediapipeWorks/blob/main/images_samples/facemesh_landmarkpoints.jpg)
 
 
 ```
@@ -26,7 +26,7 @@ python facemesh_tesselation.py
 ```
  *** looks like below
 
-![Face Mesh](https://github.com/alex1779/mediapipeWorks/blob/master/images_samples/facemesh_tesselation.jpg)
+![Face Mesh](https://github.com/alex1779/mediapipeWorks/blob/main/images_samples/facemesh_tesselation.jpg)
 
 
 
@@ -35,7 +35,7 @@ python face_mesh_contours.py
 ```
  *** looks like below
 
-![Face Mesh](https://github.com/alex1779/mediapipeWorks/blob/master/images_samples/face_mesh_contours.jpg)
+![Face Mesh](https://github.com/alex1779/mediapipeWorks/blob/main/images_samples/face_mesh_contours.jpg)
 
 
 ```
@@ -43,7 +43,7 @@ python face_mesh_irises.py
 ```
  *** looks like below
 
-![Face Mesh](https://github.com/alex1779/mediapipeWorks/blob/master/images_samples/face_mesh_irises.jpg)
+![Face Mesh](https://github.com/alex1779/mediapipeWorks/blob/main/images_samples/face_mesh_irises.jpg)
 
 
 
@@ -52,7 +52,7 @@ python face_mesh.py
 ```
  *** looks like below
 
-![Face Mesh](https://github.com/alex1779/mediapipeWorks/blob/master/images_samples/face_mesh.jpg)
+![Face Mesh](https://github.com/alex1779/mediapipeWorks/blob/main/images_samples/face_mesh.jpg)
 
 
 
