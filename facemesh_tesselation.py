@@ -8,6 +8,8 @@ Created on Wed Apr 13 11:51:12 2022
 import cv2
 import mediapipe as mp
 import imutils
+import time
+
 
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
@@ -39,11 +41,9 @@ def main():
         image.flags.writeable = False
         image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
         
-     
         if results.multi_face_landmarks:
             for face_landmarks in results.multi_face_landmarks:
-    
-    
+                
                 mp_drawing.draw_landmarks(
                     image=image,
                     landmark_list=face_landmarks,
@@ -51,7 +51,6 @@ def main():
                     landmark_drawing_spec=None,
                     connection_drawing_spec=mp_drawing_styles
                     .get_default_face_mesh_tesselation_style())
-                
                 
         image = imutils.resize(image, height=720)
         cv2.imshow('MediaPipe Face Mesh Tesselation', image)
